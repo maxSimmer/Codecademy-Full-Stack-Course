@@ -1,0 +1,51 @@
+a {
+    color: lightblue;
+    text-decoration: underline;
+    cursor: pointer;
+    font-weight: 350;
+  }
+   
+  a:hover {
+    text-decoration: none;
+  }
+  
+  .nav-link {
+    color: black;
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-weight: bold;
+    background-color: hsla(200, 20%, 50%, 25%);
+  }
+  
+  .btn {
+    background-color: hsla(233, 70%, 50%, 50%);
+    border-radius: 10px;
+    color: #ffffff;
+    font-family: 'Raleway',sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 14px;
+    text-decoration: underline;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+  
+  .activity {
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-decoration: none;
+    box-shadow: 0px 5px;
+    font-style: italic;
+  }
+  
+  .activity:hover {
+    background-color: lightblue;
+  }
+  
+  .activity:active {
+    background-color: hsla(233, 70%, 50%, 50%);
+    text-decoration: underline;
+    font-style: none;
+  }
